@@ -1,21 +1,23 @@
 require("dotenv").config();
 
 const {
-  DATABASE_URI,
+  MONGODB_URI,
   APP_ID,
   MASTER_KEY,
   SERVER_URL,
   MOUNT,
   ADMIN_USERNAME,
-  ADMIN_PASSWORD
+  ADMIN_PASSWORD,
+  PORT
 } = process.env;
 
 module.exports = {
-  DATABASE_URI,
+  MONGODB_URI,
   APP_ID,
   MASTER_KEY,
   SERVER_URL,
   MOUNT,
   ADMIN_USERNAME,
-  ADMIN_PASSWORD
+  ADMIN_PASSWORD,
+  PORT
 };
